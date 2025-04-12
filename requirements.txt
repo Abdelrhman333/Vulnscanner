@@ -1,4 +1,9 @@
 requests
 beautifulsoup4
-rich
 pyfiglet
+rich
+argparse
+json
+urllib3
+urllib.parse
+bs4
