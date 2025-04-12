@@ -1,4 +1,4 @@
-🔍 VulnScanner Pro
+#🔍 VulnScanner Pro
 VulnScanner Pro is a powerful and automated CLI-based web vulnerability scanner written in Python. Designed for professional penetration testers and bug bounty hunters, this tool performs deep analysis and enumeration on websites to discover a wide range of critical security vulnerabilities.
 
 🚀 Features
