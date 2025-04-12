@@ -30,12 +30,22 @@ Built for legal and authorized testing only ✅
 Python 3.8+
 
 ### Tools:
+
+- subfinder
+- nuclei
+- sqlmap
+- XSStrike
+
+## installation 👾
 ```
-subfinder
-
-nuclei
-
-sqlmap
-
-XSStrike
+git clone https://github.com/Abdelrhman333/Vulnscanner
 ```
+```
+chmod +x install.sh
+```
+```
+./install.sh
+```
+
+
+
