@@ -4,8 +4,11 @@ import subprocess
 import requests
 import json
 import time
+import signal
+import sys
 
 from urllib.parse import urlparse, parse_qs, urlsplit, urlunsplit, urlencode
+from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 from rich.console import Console
 from rich.table import Table
@@ -14,6 +17,13 @@ from rich.progress import Progress
 import pyfiglet
 
 console = Console()
+
+# --- Graceful Exit Handler ---
+def signal_handler(sig, frame):
+    console.print("\n[bold red][-] Scan interrupted by user. Exiting...[/bold red]")
+    sys.exit(0)
+
+signal.signal(signal.SIGINT, signal_handler)
 
 # --- Helper Functions ---
 def banner():
