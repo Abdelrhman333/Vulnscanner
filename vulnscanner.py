@@ -17,7 +17,7 @@ console = Console()
 
 # --- Helper Functions ---
 def banner():
-    ascii_banner = pyfiglet.figlet_format("VulnScanner Pro")
+    ascii_banner = pyfiglet.figlet_format("                VulnScanner")
     console.print(f"[bold red]{ascii_banner}[/bold red]")
 
 def extract_domain(url):
