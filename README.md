@@ -48,7 +48,7 @@ chmod +x install.sh
 ```
 ## Usage 🧙‍♂️
 ```
-webscan.py [-h] -u URL [--no-subdomains] [--no-nuclei] [--no-sql] [--no-xss] [--no-ssrf] [--no-lfi] [--no-idor] [--level {1,2,3}]
+vulnscanner.py -u URL [-h]
 ```
 ### options: 
 ```
