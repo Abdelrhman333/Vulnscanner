@@ -1,5 +1,7 @@
-# VulnScanner 🔍    
-VulnScanner is a powerful and automated CLI-based web vulnerability scanner written in Python. Designed for professional penetration testers and bug bounty hunters, this tool performs deep analysis and enumeration on websites to discover a wide range of critical security vulnerabilities.
+# VulnScanner 🔍
+![logo](https://github.com/user-attachments/assets/87e7fef2-780d-4aec-adc4-5d8a70b22c28)
+VulnScanner is a powerful and automated CLI-based web vulnerability scanner written in Python. Designed for professional penetration testers and bug bounty hunters, this tool performs deep analysis and enumeration on websites to discover a wide 
+range of critical security vulnerabilities.
 
 ## Features 🚀
 Subdomain Enumeration using subfinder 🌐
