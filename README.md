@@ -68,12 +68,6 @@ vulnscanner.py -u URL [-h]
   --level {1,2,3}    Set scan level (1 is default, 2 and 3 add more depth).
   --output OUTPUT    Specify output file for saving results (e.g. output.json)
 ```
-## Contact & Support
-
-If you need help or have any questions, you can contact us via email:
-
-abdoislam732@gmail.com
-
 ## License
 This project is licensed under the  Apache-2.0 license - see the [LICENSE](https://github.com/Abdelrhman333/Vulnscanner?tab=Apache-2.0-1-ov-file) file for details.
 
